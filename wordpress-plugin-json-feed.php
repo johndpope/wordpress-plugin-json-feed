@@ -21,8 +21,8 @@ function json_feed_queryvars($qvars) {
 
 function json_feed() {
     // set max items to display
-    $_items = trim(get_query_var('limit'));
-    $items = ($_items != '' && is_numeric($_items) && $_items > 0) ? trim(get_query_var('limit')) : DEFAULT_MAX_STORIES;
+    $_limit = trim(get_query_var('limit'));
+    $items = ($_limit != '' && is_numeric($_limit) && $_limit > 0) ? $_limit : DEFAULT_MAX_STORIES;
 
     $output = array();
     $count = 1;
