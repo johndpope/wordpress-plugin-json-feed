@@ -15,8 +15,8 @@ Below is a list of the changes made to version 1.3:
 
 * The `limit` parameter has been added to control the number of results returned. The default is set to 10.
 * JSONP support has been modified to expect a parameter named `callback` instead of the original `jsonp`
-* The list of columns returned has been limited to 'title,' 'excerpt,' 'permalink,' 'display_date' and 'unix_date.'
-* 'title' and 'excerpt' are now stripped off tags and HTML entities encoded.
+* The list of columns returned has been limited to `title`, `excerpt`, `permalink`, `display_date` and `unix_date`
+* `title` and `excerpt` are now stripped off tags and HTML entities encoded.
 
 == Frequently Asked Questions ==
 
