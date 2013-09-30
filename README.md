@@ -1,5 +1,5 @@
-wordpress-plugin-json-feed
-==========================
+JSON Feed Plugin for Wordpress
+==============================
 
 This is a 'fork' of Chris Northwood's popular [JSON Feed plugin for version 1.3](http://wordpress.org/support/plugin/json-feed).
 
