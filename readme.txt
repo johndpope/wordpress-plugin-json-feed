@@ -1,4 +1,4 @@
-=== SDJI JSON feed ===
+=== JSON Feed Plugin for WordPress ===
 Contributors: chrisnorthwood, cbetancourt
 Tags: json, feed, feeds
 Requires at least: 3.6.1
@@ -7,7 +7,7 @@ Stable tag: 1.0
 
 == Description ==
 
-This is a 'fork' of Chris Northwood's popular [JSON Feed plugin for version 1.3](http://wordpress.org/support/plugin/json-feed).
+This is a 'fork' of Chris Northwood's popular [JSON Feed plugin for WordPress version 1.3](http://wordpress.org/support/plugin/json-feed).
 
 It provides he ability to generate feeds in JSON format from any place on your WordPress site.
 

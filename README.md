@@ -1,7 +1,7 @@
-JSON Feed Plugin for Wordpress
+JSON Feed Plugin for WordPress
 ==============================
 
-This is a 'fork' of Chris Northwood's popular [JSON Feed plugin for version 1.3](http://wordpress.org/support/plugin/json-feed).
+This is a 'fork' of Chris Northwood's popular [JSON Feed plugin for WordPress version 1.3](http://wordpress.org/support/plugin/json-feed).
 
 It provides he ability to generate feeds in JSON format from any place on your WordPress site.
 
