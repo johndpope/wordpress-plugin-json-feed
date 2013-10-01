@@ -28,10 +28,10 @@ function json_feed() {
     $count = 1;
     while (have_posts() && $count <= $items) {
 	the_post();
-	$post_date = strtotime(get_the_date(DATE_W3C));
+	$post_date = strtotime(get_the_date(DATE_ISO8601));
 	$output[] = array(
-	    'title' => htmlentities(strip_tags(get_the_title())),
-	    'excerpt' => htmlentities(strip_tags(get_the_excerpt())),
+	    'title' => strip_tags(get_the_title()),
+	    'excerpt' => strip_tags(get_the_excerpt()),
 	    'permalink' => get_permalink(),
 	    'display_date' => date(get_date_format(), $post_date),
 	    'unix_date' => $post_date * 1000
